@@ -1,0 +1,78 @@
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: rgba(67, 126, 136, 0.568);
+}
+.main-header {
+    position: relative;
+    border-bottom: solid;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.input-gruop {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+
+}
+.input-gruop-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-gruop-btn a {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-right: -1px;
+}
+.input-gruop {
+    height: 40px;
+    border-width: 1px;
+}
+.input-gruop-btn {
+    z-index: 2;
+    margin-left: -1px;
+    
+}
+
+.row{
+    margin-left: 300px;
+    margin-top: -300px;
+}
+
+.container-card{
+    width: 300px;
+    height: 300px;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0 0 3px 0 black;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.title-head{
+    text-align: center;
+}
+
+.title-head hr{
+     border: 1px solid;  
+     margin-top: -8px;
+}
+
+.footer{
+   position: absolute;
+   left: 0;
+   bottom: auto;
+   background-color: rgba(67, 126, 136, 0.568);
+   width: 100%;
+   color: black;
+   text-align: center;
+}

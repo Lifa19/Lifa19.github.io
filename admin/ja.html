@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Admin Toko Buah</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-sm relative-top" style="background-color: rgba(67, 126, 136, 0.568); ">
+        <a class="navbar-brand" href="index.html" style="color: black;"><h2>Toko Mucy</h2></a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="jenisbuah.html">Jenis Buah</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="upload.html">Upload</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="datapemesanan.html">Data Pemesanan</a>
+            </li>
+          </ul>
+            <hr class="d-sm-flex d-md-flex d-lg-none">
+          <ul class="navbar-nav ml-md-auto d-block d-sm-flex d-md-flex">
+              <li class="nav-item">
+                <a class="navbar-nav text-muted" href="login_admin.html">Keluar</a>
+              </li>
+          </ul>
+      </nav>
+        <main style="padding: 100px;">
+          <div class="row">
+            <div class="col-sm">
+              <div class="card" style="width:200px">
+              <img class="card-img-top" src="jambu_bangkok.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Jambu Bangkok</h4>
+                    <td>
+                      <button type="submit" class="btn_btn fa fa-edit" onclick="minus()"></button>
+                      <button type="submit" class="btn_btn fa fa-trash" onclick="trash()"></button>
+                    </td>
+                      <select>
+                        <option value="1kilo">1 Kilo</option>
+                        <option value="2kila">2 Kilo</option>
+                        <option value="3kilo">3 Kilo</option>
+                        <option value="4kilo">4 Kilo</option>
+                      </select>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width:200px;">
+              <img class="card-img-top" src="jambu_g_m.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Jambu Getas Merah</h4>
+                    <td>
+                      <button type="submit" class="btn_btn fa fa-edit" onclick="minus()"></button>
+                      <button type="submit" class="btn_btn fa fa-trash" onclick="trash()"></button>
+                    </td>
+                      <select>
+                        <option value="1kilo">1 Kilo</option>
+                        <option value="2kila">2 Kilo</option>
+                        <option value="3kilo">3 Kilo</option>
+                        <option value="4kilo">4 Kilo</option>
+                      </select>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width:200px">
+              <img class="card-img-top" src="jambu_kristal.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Jambu Kristal</h4>
+                    <td>
+                      <button type="submit" class="btn_btn fa fa-edit" onclick="minus()"></button>
+                      <button type="submit" class="btn_btn fa fa-trash" onclick="trash()"></button>
+                    </td>
+                      <select>
+                        <option value="1kilo">1 Kilo</option>
+                        <option value="2kila">2 Kilo</option>
+                        <option value="3kilo">3 Kilo</option>
+                        <option value="4kilo">4 Kilo</option>
+                      </select>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="footer" >
+          <p style="padding: 20px;">Made by Lifa </p>
+              <a href=""><i class="fa fa-whatsapp"></i><br>082301777985</a><br>
+              <a href=""><i class="fa fa-instagram"></i><br>Toko_Mucy</a> 
+        </footer>
+    </body>
+</html>
